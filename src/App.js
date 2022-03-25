@@ -6,7 +6,7 @@ import Done from './Done'
 
 const App = () => {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename='demo-input-strategies'>
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="done" element={<Done />} />
