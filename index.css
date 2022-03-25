@@ -1,0 +1,10 @@
+.strategies {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+@media (max-width: 767px) {
+  .strategies {
+    grid-template-columns: 1fr;
+  }
+}
